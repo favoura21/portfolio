@@ -973,7 +973,7 @@
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 3rem;
+    gap: 6rem;
     margin-bottom: 5rem;
   }
   
