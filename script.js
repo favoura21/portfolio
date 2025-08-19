@@ -143,28 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     })
   
-    // Form validation
-    const contactForm = document.querySelector(".contact-form")
-  
-    if (contactForm) {
-      contactForm.addEventListener("submit", (e) => {
-        e.preventDefault()
-  
-        // Simple form validation
-        const name = document.getElementById("name").value
-        const email = document.getElementById("email").value
-        const subject = document.getElementById("subject").value
-        const message = document.getElementById("message").value
-  
-        if (name && email && subject && message) {
-          // Form is valid, you can submit it or show a success message
-          alert("Thank you for your message! I will get back to you soon.")
-          contactForm.reset()
-        } else {
-          alert("Please fill in all fields.")
-        }
-      })
-    }
+    
   
     // Animate elements on scroll
     const animateElements = document.querySelectorAll(
