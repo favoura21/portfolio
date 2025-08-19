@@ -326,7 +326,7 @@
           </div>
         </div>
         <div class="contact-form-container">
-          <form class="contact-form">
+          <form class="contact-form" action="https://formspree.io/f/abcd1234" method="POST">
             <div class="form-group">
               <input type="text" id="name" name="name" required>
               <label for="name">Your Name</label>
@@ -347,6 +347,10 @@
               <label for="message">Your Message</label>
               <div class="form-line"></div>
             </div>
+            <!-- Optional: add a hidden input for spam protection -->
+           <input type="text" name="_gotcha" style="display:none">
+           <!-- Redirect after success -->
+           <input type="hidden" name="_redirect" value="https://favoura21.github.io/portfolio">
             <button type="submit" class="btn primary-btn submit-btn">
               <span>Send Message</span>
               <i class="fas fa-paper-plane"></i>
