@@ -971,9 +971,11 @@
   }
   
   .projects-grid {
+    margin-left: 20px;
+    margin-right: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 60px;
+    gap: 6rem;
     margin-bottom: 5rem;
   }
   
