@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Typing effect
     const typingElement = document.querySelector(".typing")
-    const words = ["Front-End Developer", "Graphics Designer", "UI/UX Enthusiast"]
+    const words = ["Front-End Developer", "Graphics Designer"]
     let wordIndex = 0
     let charIndex = 0
     let isDeleting = false
